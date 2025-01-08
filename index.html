@@ -7,7 +7,57 @@
     <title>Drum-kit App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+
+
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="./src/assets/sound/tr808-clap-241405.mp3"></audio>
+    <audio data-key="83" src="./src/assets/sound/tr707-crash-cymbal-241376.mp3"></audio>
+    <audio data-key="68" src="./src/assets/sound/tom-0104-107508.mp3"></audio>
+    <audio data-key="70" src="./src/assets/sound/sweet-hit-133495.mp3"></audio>
+    <audio data-key="71" src="./src/assets/sound/openhat-164697.mp3"></audio>
+    <audio data-key="72" src="./src/assets/sound/end-of-trail-137019.mp3"></audio>
+    <audio data-key="74" src="./src/assets/sound/electronic-ride-3-47404.mp3"></audio>
+    <audio data-key="75" src="./src/assets/sound/dark-future-logo-196217.mp3"></audio>
+    <audio data-key="76" src="./src/assets/sound/blade-on-wood-metal-clank-tink-63689.mp3"></audio>
+
+    <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
